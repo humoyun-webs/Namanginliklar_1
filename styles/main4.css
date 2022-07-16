@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+    background-color: white;;
+}
+
+.header_logo{
+    display: flex; 
+    justify-content: center;
+    
+    position: absolute;
+width: 100%;
+height: 332px;
+background-color: #F6F6F9;
+
+}
+.logo{
+    position: absolute;
+    display: flex;
+width: 280px;
+height: 33px;
+left: 127px;
+top: 47px;
+text-align: center;
+font-weight: 900;
+font-size: 2em;
+line-height: 33px;
+background-color: white;
+
+color: #295091;
+}
+
+.dollars{
+    position: relative;
+    list-style-type: none;
+    display: flex;
+    padding-left: 150px;
+    
+    
+    
+}
+.dollar1{
+    padding: 55px 10px;
+}
+.bold_blue{
+    color: #295091;
+    font-weight: 900;
+   
+}
+.poisk{
+    position: absolute;
+width: 38.1px;
+height: 40px;
+background-color: white;
+display: flex;
+border-radius: 5px;
+justify-content: center;
+justify-items: center;
+margin-left: 750px;
+margin-top: 45px;
+}
+.russian_flag{
+    position: absolute;
+width: 64.76px;
+height: 40px;
+background-color: white;
+display: flex;
+justify-content: center;
+justify-items: center;
+border-radius: 5px;
+margin-top: 45px;
+margin-left: 950px;
+}
+.rus{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 15px;
+    padding-left: 4px;
+    
+}
+.telegram{
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+border-radius: 5px;
+width: 120px;
+height: 40px;
+display: flex;
+margin-top: 45px;
+margin-left: 850px;
+}
+.telegram h5{
+    padding-top: 12px;
+    color: white;
+    padding-left: 5px;
+}
+.telegram img{
+    padding-left: 10px;
+    
+}
+.menus{
+    position: absolute;
+width: 1525px;
+margin-right: 114px;
+height: 68px;
+background: #FFFFFF;
+box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+border-radius: 5px;
+margin-top: 120px;
+
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    
+}
+.menu1{
+    padding: 20px 38px;
+    font-weight: 900;
+
+}
+.reklama{
+    position: absolute;
+    width: 1525px;
+    margin-top: 200px;
+    margin-left: 130px;
+}
+.information{
+    width: 1525px;
+    height: 133px;
+    background-color: #F6F6F9;
+    position: absolute;
+    margin-top: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    margin-left: 130px;
+    border-radius: 10px;
+}
+.information1 {
+    display: flex;
+    
+
+
+}
+.information1 h3{
+    padding-left: 20px;
+    font-weight: 900;
+
+}
+.information2{
+    display: flex;
+    
+}
+.bold_red{
+    color: red;
+}
+.information2 h3{
+    font-weight: 900;
+    padding-left: 20px;
+}
+.information3{
+    display: flex;
+
+}
+.information3 h3{
+    padding-left: 20px;
+    font-weight: 900;
+}
+.bold_green{
+    color: limegreen;
+}
+.information4{
+    display: flex;
+}
+.information4 h3{
+    padding-left: 20px;
+}
+
+.all{
+    margin: auto;
+    box-sizing: border-box;
+    width: 100%;
+}
+.royhatdan_otish{
+    
+    position: relative;
+    z-index: 1;
+    top: 340px;
+    width: 80%;
+    margin: auto;
+    
+    
+
+   
+    
+}
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    float:left ;
+
+}
+.name{
+    width: 400px;
+    height: 25px;
+    margin:10px 0px;
+    border: 2px solid #285193; 
+    border-radius: 3px;
+    
+}
+.mail{
+    width: 400px;
+    height: 25px;
+    margin:10px 0px;
+    border: 2px solid #285193; 
+    border-radius: 3px;
+}
+.number{
+    width: 400px;
+    height: 25px;
+    margin:10px 0px;
+    border: 2px solid #285193; 
+    border-radius: 3px;
+}
+.theme{
+    width: 400px;
+    height: 25px;
+    margin:10px 0px;
+    border: 2px solid #285193; 
+    border-radius: 3px;
+}
+#textarea{
+    margin:10px 0px;
+    border: 2px solid #285193; 
+    border-radius: 3px;
+}
+.file{
+    width: 200px;
+    height: 25px;
+    margin:10px 0px;
+    border: 2px solid #285193; 
+    border-radius: 3px;
+}
+.Cod{
+    width: 200px;
+    height: 25px;
+    margin:10px 0px;
+    border: 2px solid #285193; 
+    border-radius: 3px;
+}
+.codd{
+    display: flex;
+    align-items: center;
+}
+.Send{
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    background-color: #1E96C8;
+    color: white;
+    font-weight: 700;
+    border:2px solid #295091;
+    transition: 0.4s;
+
+}
+.Send:hover{
+    width: 170px;
+    height: 35px;
+    background-color: white;
+    color: #1E96C8;
+    font-weight: 700;
+    border:2px solid white;
+
+}
+.right{
+    float: right;
+    width: 50%;
+    height: 250px;
+    width: 510px;
+    box-shadow: -5px 5px 30px gray;
+    margin-top: 50px;
+}
+.logo_blue{
+    color: #295091;
+    box-sizing: border-box;
+    padding-left: 230px;
+    padding-top: 10px;
+    font-weight: 900;
+
+}
+.white_ul{
+    list-style-type: none;
+    height: 70%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 20px;
+    color: gray;
+    float: left;
+    letter-spacing: 2px;
+}
+.info{
+    color: gray;
+    padding-top: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.smm{
+    padding-top: 10px;
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+
+}
+.smm1{
+    padding: 6px;
+}
+.follow{
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+border-radius: 5px;
+width: 120px;
+height: 30px;
+align-items: center;
+display: flex;
+box-sizing: border-box;
+position: relative;
+left: 150px;
+top: 10px;
+
+}
+.follow h5{
+   
+    color: white;
+    padding-left: 5px;
+}
+.follow img{
+    padding-left: 10px;
+}
+.smm3{
+    position: relative;
+    top: 20px;
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+.google{
+    position: relative;
+    left: 10px;
+}
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: #295093;
+    position: absolute;
+    margin-top:1100px ;
+}
+
+.footer_text{
+    width: 88%;
+    margin: 0 auto;
+    padding-top: 20px;
+    height: 18%;
+    
+    
+
+}
+
+.logo2{
+ box-sizing: border-box;
+ width: 300px;
+ height: 40px;
+ text-align: center;
+ font-weight: 900;
+ font-size: 2em;
+ background: #133C82;
+ color: white;
+ border-radius:5px ;
+ -webkit-border-radius:5px ;
+ -moz-border-radius:5px ;
+ -ms-border-radius:5px ;
+ -o-border-radius:5px ;
+}
+.footer_header_text{
+display: flex;
+justify-content: space-between;
+}
+.footer_header_text h5{
+    font-size: 24px;
+    padding-top: 9px;
+    color:white ;
+    padding-right: 80px;
+    
+
+}
+.telegram_white{
+   
+    width: 30px;
+    height: 45px;
+    display: flex;
+    
+    padding-right: 180px;
+    background-color: white;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+    color: #133C82;
+}
+.telegram_white img{
+    padding-left: 5px;
+}
+.telegram_white h5{
+    padding-left: 10px;
+    color: #133C82;
+}
+.royhat1{
+    color: white;
+    width: 30%;
+}
+.royhat{
+    display: flex;
+    justify-content: space-between;
+}
+.royhat2{
+    list-style-type: none;
+    color: white;
+    padding-right: 250px;
+}
+
+.royhatlar{
+    padding-top: 10px;
+}
+.royhat3{
+    list-style-type: none;
+    color: white;
+    padding-right: 250px;
+}
